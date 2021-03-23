@@ -14,10 +14,10 @@ will generate a folder called target, inside that folder you will find two jar f
 
 ## Usage
 
-To run the web scraper we must run the following command
+In order for application to distinguish between internal and external hyperlinks the name of the HTML file that we want to scrape must be “the domain of the website.html”. To run the web scraper we must run the following command.
 
 ```bash
-java -jar WebScraper.jar "my_HTML_file.html"
+java -jar WebScraper.jar "unibz.it.html"
 ```
 
 ## License
